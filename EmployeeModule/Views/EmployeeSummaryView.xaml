@@ -32,7 +32,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0"
-                   Text="Employee Summary Vuew"
+                   Text="Employee Summary View"
                    TextWrapping="Wrap"
                    FontSize="18"
                    Foreground="#FF2F3806"
