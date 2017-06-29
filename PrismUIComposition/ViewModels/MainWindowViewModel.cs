@@ -1,13 +1,12 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using System.Windows.Input;
-using System;
 
 namespace PrismUIComposition.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
-        private string _title = "Prism Unity Application";
+        private string _title = "Prism UI Composition";
         public string Title
         {
             get { return _title; }
