@@ -10,7 +10,11 @@ namespace StateBasedNavigation.Infrastructure.Behaviors
     public class ShowNotificationAction : TargetedTriggerAction<FrameworkElement>
     {
         public static readonly DependencyProperty NotificationTimeoutProperty =
-            DependencyProperty.Register(nameof(NotificationTimeout), typeof(TimeSpan), typeof(ShowNotificationAction), new PropertyMetadata(new TimeSpan(0, 0, 5)));
+            DependencyProperty.Register(
+                nameof(NotificationTimeout),
+                typeof(TimeSpan),
+                typeof(ShowNotificationAction),
+                new PropertyMetadata(new TimeSpan(0, 0, 5)));
 
         private ObservableCollection<object> _notifications;
 

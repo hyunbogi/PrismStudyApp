@@ -54,21 +54,27 @@ namespace StateBasedNavigation.Models
                 new[]
                 {
                     new Contact { Name = "Friend #1", AvatarUri = Avatar1Uri, PersonalMessage = "Enjoying my vacations!" },
-                        new Contact { Name = "Friend #2", AvatarUri = Avatar3Uri },
-                        new Contact { Name = "Friend #3", AvatarUri = Avatar2Uri },
-                        new Contact { Name = "Friend #4", AvatarUri = Avatar1Uri, PersonalMessage = "Work work work work work" },
-                        new Contact { Name = "Friend #5", AvatarUri = Avatar4Uri },
-                        new Contact { Name = "Friend #6", AvatarUri = Avatar2Uri },
-                        new Contact { Name = "Friend #7", AvatarUri = Avatar4Uri },
-                        new Contact { Name = "Friend #8", AvatarUri = Avatar2Uri },
-                        new Contact { Name = "Friend #9", AvatarUri = Avatar3Uri },
-                        new Contact { Name = "Friend #10", AvatarUri = Avatar1Uri }
+                    new Contact { Name = "Friend #2", AvatarUri = Avatar3Uri },
+                    new Contact { Name = "Friend #3", AvatarUri = Avatar2Uri },
+                    new Contact { Name = "Friend #4", AvatarUri = Avatar1Uri, PersonalMessage = "Work work work work work" },
+                    new Contact { Name = "Friend #5", AvatarUri = Avatar4Uri },
+                    new Contact { Name = "Friend #6", AvatarUri = Avatar2Uri },
+                    new Contact { Name = "Friend #7", AvatarUri = Avatar4Uri },
+                    new Contact { Name = "Friend #8", AvatarUri = Avatar2Uri },
+                    new Contact { Name = "Friend #9", AvatarUri = Avatar3Uri },
+                    new Contact { Name = "Friend #10", AvatarUri = Avatar1Uri }
                 });
         }
+
+        #region Events
 
         public event EventHandler ConnectionStatusChanged;
 
         public event EventHandler<MessageReceivedEventArgs> MessageReceived;
+
+        #endregion
+
+        #region Properties
 
         public bool Connected
         {
@@ -82,6 +88,8 @@ namespace StateBasedNavigation.Models
                 }
             }
         }
+
+        #endregion
 
         public void GetContacts(Action<IOperationResult<IEnumerable<Contact>>> callback)
         {

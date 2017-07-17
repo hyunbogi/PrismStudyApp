@@ -760,7 +760,7 @@
                     </Border.Background>
                     <Border BorderThickness="4" BorderBrush="{StaticResource PrimaryBrush}" CornerRadius="10"
                             Opacity="1" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="220" Background="White">
-                        <Image Source="/StateBasedNavigation.Desktop;component/Images/disconnect.png" Margin="10" AutomationProperties.AutomationId="DisconnectedImage"/>
+                        <Image Source="/StateBasedNavigation;component/Images/disconnect.png" Margin="10" AutomationProperties.AutomationId="DisconnectedImage"/>
                     </Border>
                 </Border>
 

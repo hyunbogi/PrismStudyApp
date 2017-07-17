@@ -34,10 +34,14 @@ namespace Interaction.ViewModels
         public InteractionRequest<INotification> CustomPopupViewRequest { get; private set; }
         public InteractionRequest<ItemSelectionNotification> ItemSelectionRequest { get; private set; }
 
+        #region Commands
+
         public ICommand RaiseNotificationCommand { get; private set; }
         public ICommand RaiseConfirmationCommand { get; private set; }
         public ICommand RaiseCustomPopupViewCommand { get; private set; }
         public ICommand RaiseItemSelectionCommand { get; private set; }
+
+        #endregion
 
         private void RaiseConfirmation()
         {
