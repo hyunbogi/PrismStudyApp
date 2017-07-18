@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUIComposition", "PrismUIComposition\PrismUIComposition.csproj", "{99C9E82C-C594-446D-AA59-8FFBC43AD226}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -21,6 +21,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderModule", "OrderModule\OrderModule.csproj", "{0D6CF337-F384-4F7D-A087-0E98BF0B7408}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commanding", "Commanding\Commanding.csproj", "{002DD0F2-33DB-436C-A2A2-D701414B62AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAggregation", "EventAggregation\EventAggregation.csproj", "{F47667EB-76A2-427D-9263-E66278340685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{70D52C4B-4C96-4A6D-A74D-2B1D9D638BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventAggregation.Infrastructure", "EventAggregation.Infrastructure\EventAggregation.Infrastructure.csproj", "{517ED985-80D2-456E-B8D7-F1F308C0D125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "ModuleB\ModuleB.csproj", "{F3647331-15AE-4098-9599-20124BF58F5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +68,22 @@ Global
 		{002DD0F2-33DB-436C-A2A2-D701414B62AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{002DD0F2-33DB-436C-A2A2-D701414B62AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{002DD0F2-33DB-436C-A2A2-D701414B62AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47667EB-76A2-427D-9263-E66278340685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47667EB-76A2-427D-9263-E66278340685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47667EB-76A2-427D-9263-E66278340685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47667EB-76A2-427D-9263-E66278340685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D52C4B-4C96-4A6D-A74D-2B1D9D638BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D52C4B-4C96-4A6D-A74D-2B1D9D638BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D52C4B-4C96-4A6D-A74D-2B1D9D638BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D52C4B-4C96-4A6D-A74D-2B1D9D638BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517ED985-80D2-456E-B8D7-F1F308C0D125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517ED985-80D2-456E-B8D7-F1F308C0D125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517ED985-80D2-456E-B8D7-F1F308C0D125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517ED985-80D2-456E-B8D7-F1F308C0D125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3647331-15AE-4098-9599-20124BF58F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3647331-15AE-4098-9599-20124BF58F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3647331-15AE-4098-9599-20124BF58F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3647331-15AE-4098-9599-20124BF58F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
